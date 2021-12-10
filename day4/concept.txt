@@ -1,0 +1,42 @@
+concept:
+convert input to dataframes.
+for number in numbersdrawn:
+    for df in alldfs:
+        change nr to "x"
+        check if all rows/ all cols == "x"
+        
+####################
+Maybe there's an easier way to do this?
+I could just go through the dfs
+and determine how many turns it would take until it wins.
+And then I pick the one that wins first.
+
+And then I calculate the other bullshit to get the score.
+
+How do I determine how many turns are needed?
+Fastest way imho is:
+1. replace every number with index from first list (="howmanieth")
+2. pick the highest number for every row (=when there's a bingo there)
+3. do same for cols
+4. out of the numbers from 2&3 pick the lowest (=that's the round when there's a bingo with that table)
+5. repeat 1-4 for every table, pick the one with the lowest number
+
+1. kann ich gleich auf alle Zahlen gleichmäßig anwenden
+2. auch
+3. nicht. was machen? Wie mach ich das mit den Fünfer-Tranchen?
+4. Woher weiß ich dann welche ich nehme?
+
+Ich sollte den Input zu dfs umwandeln.
+Fuck, eigentlich sind das numpyarrays.
+Habe nie mit numpy so richtig gearbeitet, scheiße.
+a = np.matrix('1 2; 3 4')
+a
+matrix([[1, 2],
+        [3, 4]])
+np.sum mit axis 1 oder 0 Ergibt dann die Summen.
+Die Frage ist nur noch:
+Wie mache ich aus diesen Strings numpy-matrizen.
+
+FUCK. numpy matrizen werden bald deprecated - muss loanpy umschreiben.
+
+Passt, habs jetzt zu matrizen konvertiert.

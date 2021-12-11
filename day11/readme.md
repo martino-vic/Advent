@@ -1,0 +1,1 @@
+Today felt satisfying. I needed two hours but the organisation was very clear from the beginning on. Solution from day 9 was helpful not to transgress the boundaries of the matrix.

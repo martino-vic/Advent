@@ -1,0 +1,1 @@
+Didn't manage to get a silver star, similar situation as yesterday: I get the correct output for the easier input-example and for the real input the answer is wrong.

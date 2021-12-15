@@ -1,0 +1,13 @@
+use the networkx package.
+node names = input numbers
+weights = also the input numbers
+path = get shortest path
+resutl = sum(path)-the first one
+
+G = ?
+G = nx.complete_graph(range(len(mtx)))
+path = shortest_path(G, source=None, target=None, weight=None, method='dijkstra')
+path_weight(G, path, weight)-the first one
+How to turn the string into a graph?
+Just count from 1 till n from the upper left till the bottom right corner.
+and add weights from mtx in a loop

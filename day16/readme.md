@@ -1,0 +1,1 @@
+Didn't manage to get a silver star. Not even sure if my logic is correct at all. It just feels like I'm almost there. Don't get it why the iteration just doesn't stop where it should. 6hrs of trying. The worst so far.
